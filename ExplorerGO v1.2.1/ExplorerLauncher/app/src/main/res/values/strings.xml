@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">Explorer GO</string>
+
+    <!-- Categories -->
+    <string name="cat_nav">Navigation</string>
+    <string name="cat_music">Music</string>
+    <string name="cat_phone">Phone</string>
+    <string name="cat_sms">Messages</string>
+    <string name="cat_camera">Camera</string>
+    <string name="cat_browser">Browser</string>
+    <string name="cat_contacts">Contacts</string>
+    <string name="cat_radio">Radio</string>
+
+    <!-- Settings Sections -->
+    <string name="sec_appearance">Appearance</string>
+    <string name="sec_appearance_desc">Theme, accent color, glass effect, animations</string>
+    <string name="sec_wallpaper">Wallpaper</string>
+    <string name="sec_wallpaper_desc">Separate backgrounds for lock and home screen</string>
+    <string name="sec_lockscreen">Lock Screen</string>
+    <string name="sec_lockscreen_desc">Clock with seconds, curtain, music controls</string>
+    <string name="sec_home">Home Menu</string>
+    <string name="sec_home_desc">Home menu &amp; widgets</string>
+    <string name="sec_home_sub">Side panel, adding widgets</string>
+    <string name="sec_bar">Bottom Bar</string>
+    <string name="sec_bar_desc">Start button, pinned apps</string>
+    <string name="sec_applist">App List</string>
+    <string name="sec_applist_desc">Columns, rows, icons, sorting, hidden apps</string>
+    <string name="sec_defaults">Default Apps</string>
+    <string name="sec_defaults_desc">Navigation, music, phone, camera…</string>
+    <string name="sec_system">System</string>
+    <string name="sec_system_desc">Orientation, startup, language, reset</string>
+
+    <!-- Accent Names -->
+    <string-array name="accent_names">
+        <item>Blue</item>
+        <item>Orange</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Purple</item>
+        <item>Yellow</item>
+        <item>Turquoise</item>
+        <item>White</item>
+    </string-array>
+
+    <!-- Home & Lock & Bar -->
+    <string name="tap_to_start">Tap to launch</string>
+    <string name="add_widget">+  Add widget</string>
+    <string name="search_apps">Search apps…</string>
+    <string name="all_apps">All apps  ›</string>
+    <string name="settings">⚙  Settings</string>
+    <string name="swipe_to_unlock">⌃  Swipe up to unlock</string>
+
+    <!-- App Menu & Dialogs -->
+    <string name="menu_move">↔  Move</string>
+    <string name="menu_rename">✏  Rename</string>
+    <string name="menu_hide">🙈  Hide</string>
+    <string name="menu_top">📌  Move to top</string>
+    <string name="menu_unpin">➖  Unpin from bar</string>
+    <string name="menu_pin">➕  Pin to bottom bar</string>
+    <string name="menu_info">ℹ  App info</string>
+    <string name="menu_uninstall">🗑  Uninstall</string>
+
+    <string name="toast_clear_search">Clear search first</string>
+    <string name="toast_custom_sort">Settings &gt; App List &gt; Custom order</string>
+    <string name="toast_tap_target">Tap destination to move (Back to cancel)</string>
+    <string name="dlg_rename_title">New name (empty = original)</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="toast_hidden">Hidden (restore in Settings)</string>
+
+    <string name="dlg_wallpaper_title">Wallpaper</string>
+    <string name="wp_gallery">Choose from gallery</string>
+    <string name="wp_remove">Remove</string>
+    <string name="toast_img_error">Could not load image</string>
+    <string name="toast_widget_error">Could not add widget</string>
+    <string name="dlg_remove_widget">Remove widget?</string>
+    <string name="toast_select_default">Settings &gt; Default apps</string>
+    <string name="toast_select_from_settings">Select an app in Settings</string>
+    <string name="toast_cant_open">Cannot open</string>
+
+    <!-- Settings UI -->
+    <string name="settings_title">Explorer GO Settings</string>
+    <string name="search_settings">🔎  Search settings…</string>
+    <string name="auto_label">Automatic</string>
+    <string name="toast_loading_list">Loading list…</string>
+    <string name="btn_auto_reset">Automatic / Reset</string>
+
+    <!-- Appearance Settings -->
+    <string name="set_theme">Theme</string>
+    <string-array name="theme_opts">
+        <item>Dark</item>
+        <item>Light</item>
+        <item>Automatic (day/night)</item>
+    </string-array>
+    <string name="set_accent">Accent color</string>
+    <string name="set_blur">Glass effect (blur)</string>
+    <string name="set_glass_alpha">Panel opacity</string>
+    <string name="set_corner">Corner radius</string>
+    <string name="set_night_from">Night mode start (auto)</string>
+    <string name="set_night_to">Night mode end (auto)</string>
+    <string name="set_anim">Animations</string>
+    <string name="set_anim_speed">Animation speed</string>
+    <string-array name="anim_speed_opts">
+        <item>Fast</item>
+        <item>Normal</item>
+    </string-array>
+
+    <!-- Wallpaper Settings -->
+    <string name="set_wp_all">🖼  All screens (general)</string>
+    <string name="set_wp_lock">Lock screen: %s</string>
+    <string name="set_wp_home">Home &amp; apps: %s</string>
+    <string name="wp_custom">custom</string>
+    <string name="wp_general">general</string>
+    <string name="set_wp_clear">Remove all wallpapers</string>
+    <string name="set_dim">Dimming</string>
+
+    <!-- Lock Screen Settings -->
+    <string name="set_lock_enabled">Enable lock screen</string>
+    <string name="set_lock_off">Lock when screen turns off</string>
+    <string name="set_sec">Show seconds</string>
+    <string name="set_h24">24-hour format</string>
+    <string name="set_ldate">Show date</string>
+    <string name="set_dfmt">Date format</string>
+    <string-array name="dfmt_opts">
+        <item>Monday, May 5</item>
+        <item>May 5, 2025</item>
+        <item>05.05.2025</item>
+        <item>Mon, May 5</item>
+    </string-array>
+    <string name="set_lsize">Clock size</string>
+    <string name="set_cfont">Font style</string>
+    <string-array name="cfont_opts">
+        <item>Thin</item>
+        <item>Light</item>
+        <item>Normal</item>
+        <item>Condensed</item>
+        <item>Medium</item>
+    </string-array>
+    <string name="set_ccolor">Clock color</string>
+    <string-array name="ccolor_opts">
+        <item>Accent color</item>
+        <item>Theme color</item>
+        <item>White</item>
+    </string-array>
+    <string name="set_lpos">Vertical position</string>
+    <string-array name="lpos_opts">
+        <item>Top</item>
+        <item>Center</item>
+        <item>Bottom</item>
+    </string-array>
+    <string name="set_cshadow">Drop shadow</string>
+    <string name="set_lmusic">Music controls</string>
+
+    <!-- Home Settings -->
+    <string name="set_panel">Side panel</string>
+    <string name="set_pside">Panel position</string>
+    <string-array name="pside_opts">
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+    <string name="set_panel_w">Panel width</string>
+    <string name="set_wnav">Navigation card</string>
+    <string name="set_wmusic">Music card</string>
+    <string name="set_wquick">Quick apps row</string>
+    <string name="set_add_widget">➕  Add widget</string>
+    <string name="set_clear_widgets">Remove all widgets</string>
+
+    <!-- Bottom Bar Settings -->
+    <string name="set_bar">Enable bottom bar</string>
+    <string name="set_bar_h">Height</string>
+    <string name="set_bar_icon">Icon size</string>
+    <string name="set_bar_align">Alignment</string>
+    <string-array name="bar_align_opts">
+        <item>Center</item>
+        <item>Left</item>
+    </string-array>
+    <string name="set_tlock">Lock button</string>
+    <string name="set_tvol">Volume button</string>
+    <string name="set_reset_pins">Reset pinned apps</string>
+
+    <!-- App List Settings -->
+    <string name="set_cols">Columns</string>
+    <string name="set_rows">Rows</string>
+    <string name="set_isize">Icon size</string>
+    <string name="set_lsz">Label font size</string>
+    <string name="set_labels">Show app names</string>
+    <string name="set_sort">Sorting</string>
+    <string-array name="sort_opts">
+        <item>Custom order (long press &gt; Move)</item>
+        <item>A-Z</item>
+    </string-array>
+    <string name="set_reset_order">Reset custom order</string>
+    <string name="toast_reset_done">Reset complete</string>
+    <string name="set_hidden_apps">🙈  Hidden apps (%d)</string>
+    <string name="toast_no_hidden">No hidden apps</string>
+    <string name="dlg_unhide_title">Uncheck to restore</string>
+    <string name="btn_ok">OK</string>
+
+    <!-- System Settings -->
+    <string name="set_language">Language / Dil</string>
+    <string-array name="lang_opts">
+        <item>System Default</item>
+        <item>Türkçe</item>
+        <item>English</item>
+    </string-array>
+    <string name="set_start_page">Startup screen</string>
+    <string-array name="start_page_opts">
+        <item>Lock screen</item>
+        <item>Home menu</item>
+    </string-array>
+    <string name="set_keep_on">Keep screen on</string>
+    <string name="set_full">Fullscreen (hide system bars)</string>
+    <string name="set_orient">Screen orientation</string>
+    <string-array name="orient_opts">
+        <item>Auto (sensor)</item>
+        <item>Landscape</item>
+        <item>Portrait</item>
+    </string-array>
+    <string name="set_default_home">Select default home app</string>
+    <string name="set_android_settings">Open Android settings</string>
+    <string name="set_reset_all">Reset all settings</string>
+    <string name="dlg_reset_all_title">Reset all settings?</string>
+    <string name="btn_reset">Reset</string>
+    <string name="about_footer">Explorer GO 1.0  •  Open Source Android Launcher</string>
+</resources>

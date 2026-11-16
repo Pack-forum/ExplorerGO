@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">Explorer GO</string>
+
+    <!-- Kategoriler -->
+    <string name="cat_nav">Navigasyon</string>
+    <string name="cat_music">Müzik</string>
+    <string name="cat_phone">Telefon</string>
+    <string name="cat_sms">Mesajlar</string>
+    <string name="cat_camera">Kamera</string>
+    <string name="cat_browser">Tarayıcı</string>
+    <string name="cat_contacts">Rehber</string>
+    <string name="cat_radio">Radyo</string>
+
+    <!-- Ayar Bölümleri -->
+    <string name="sec_appearance">Görünüm</string>
+    <string name="sec_appearance_desc">Tema, sistem rengi, cam efekti, animasyon</string>
+    <string name="sec_wallpaper">Duvar kağıdı</string>
+    <string name="sec_wallpaper_desc">Kilit ve ana ekran için ayrı arka plan</string>
+    <string name="sec_lockscreen">Kilit ekranı</string>
+    <string name="sec_lockscreen_desc">Saniyeli saat, perde, müzik tuşları</string>
+    <string name="sec_home">Ana menü</string>
+    <string name="sec_home_desc">Ana menü ve widget</string>
+    <string name="sec_home_sub">Sol panel, widget ekleme</string>
+    <string name="sec_bar">Alt çubuk</string>
+    <string name="sec_bar_desc">Başlat düğmesi, sabit uygulamalar</string>
+    <string name="sec_applist">Uygulama listesi</string>
+    <string name="sec_applist_desc">Sütun, satır, ikon, sıralama, gizli</string>
+    <string name="sec_defaults">Varsayılan uygulamalar</string>
+    <string name="sec_defaults_desc">Navigasyon, müzik, telefon, kamera…</string>
+    <string name="sec_system">Sistem</string>
+    <string name="sec_system_desc">Yön, açılış, dil, sıfırlama</string>
+
+    <!-- Vurgu Renkleri -->
+    <string-array name="accent_names">
+        <item>Mavi</item>
+        <item>Turuncu</item>
+        <item>Yeşil</item>
+        <item>Kırmızı</item>
+        <item>Mor</item>
+        <item>Sarı</item>
+        <item>Turkuaz</item>
+        <item>Beyaz</item>
+    </string-array>
+
+    <!-- Ana Ekran & Kilit & Alt Çubuk -->
+    <string name="tap_to_start">Dokun ve başlat</string>
+    <string name="add_widget">+  Widget ekle</string>
+    <string name="search_apps">Uygulama ara…</string>
+    <string name="all_apps">Tüm uygulamalar  ›</string>
+    <string name="settings">⚙  Ayarlar</string>
+    <string name="swipe_to_unlock">⌃  Açmak için yukarı kaydır</string>
+
+    <!-- Uygulama Menüsü ve Uyarılar -->
+    <string name="menu_move">↔  Yerini değiştir</string>
+    <string name="menu_rename">✏  Yeniden adlandır</string>
+    <string name="menu_hide">🙈  Gizle</string>
+    <string name="menu_top">📌  Başa taşı</string>
+    <string name="menu_unpin">➖  Alt çubuktan kaldır</string>
+    <string name="menu_pin">➕  Alt çubuğa sabitle</string>
+    <string name="menu_info">ℹ  Uygulama bilgisi</string>
+    <string name="menu_uninstall">🗑  Kaldır</string>
+
+    <string name="toast_clear_search">Önce aramayı temizle</string>
+    <string name="toast_custom_sort">Ayarlar &gt; Uygulama listesi &gt; Özel sıra</string>
+    <string name="toast_tap_target">Taşımak istediğin yere dokun (iptal: geri)</string>
+    <string name="dlg_rename_title">Yeni ad (boş = orijinal)</string>
+    <string name="btn_save">Kaydet</string>
+    <string name="btn_cancel">İptal</string>
+    <string name="toast_hidden">Gizlendi (Ayarlar'dan geri alınır)</string>
+
+    <string name="dlg_wallpaper_title">Duvar kağıdı</string>
+    <string name="wp_gallery">Galeriden seç</string>
+    <string name="wp_remove">Kaldır</string>
+    <string name="toast_img_error">Resim yüklenemedi</string>
+    <string name="toast_widget_error">Widget eklenemedi</string>
+    <string name="dlg_remove_widget">Widget kaldırılsın mı?</string>
+    <string name="toast_select_default">Ayarlar &gt; Varsayılan uygulamalar</string>
+    <string name="toast_select_from_settings">Ayarlardan uygulama seç</string>
+    <string name="toast_cant_open">Açılamadı</string>
+
+    <!-- Ayarlar Arayüzü -->
+    <string name="settings_title">Explorer GO Ayarlar</string>
+    <string name="search_settings">🔎  Ayarlarda ara…</string>
+    <string name="auto_label">Otomatik</string>
+    <string name="toast_loading_list">Liste yükleniyor…</string>
+    <string name="btn_auto_reset">Otomatik / sıfırla</string>
+
+    <!-- Görünüm Ayarları -->
+    <string name="set_theme">Tema</string>
+    <string-array name="theme_opts">
+        <item>Koyu</item>
+        <item>Açık</item>
+        <item>Otomatik (gece/gündüz)</item>
+    </string-array>
+    <string name="set_accent">Sistem rengi</string>
+    <string name="set_blur">Cam efekti (blur)</string>
+    <string name="set_glass_alpha">Panel saydamlığı</string>
+    <string name="set_corner">Köşe yuvarlaklığı</string>
+    <string name="set_night_from">Gece modu başlangıcı (otomatik)</string>
+    <string name="set_night_to">Gece modu bitişi (otomatik)</string>
+    <string name="set_anim">Animasyonlar</string>
+    <string name="set_anim_speed">Animasyon hızı</string>
+    <string-array name="anim_speed_opts">
+        <item>Hızlı</item>
+        <item>Normal</item>
+    </string-array>
+
+    <!-- Duvar Kağıdı Ayarları -->
+    <string name="set_wp_all">🖼  Tüm ekranlar (genel)</string>
+    <string name="set_wp_lock">Kilit ekranı: %s</string>
+    <string name="set_wp_home">Ana ekran ve uygulamalar: %s</string>
+    <string name="wp_custom">özel</string>
+    <string name="wp_general">genel</string>
+    <string name="set_wp_clear">Tüm duvar kağıtlarını kaldır</string>
+    <string name="set_dim">Karartma</string>
+
+    <!-- Kilit Ekranı Ayarları -->
+    <string name="set_lock_enabled">Kilit ekranı açık</string>
+    <string name="set_lock_off">Ekran kapanınca kilitle</string>
+    <string name="set_sec">Saniye göster</string>
+    <string name="set_h24">24 saat formatı</string>
+    <string name="set_ldate">Tarih göster</string>
+    <string name="set_dfmt">Tarih biçimi</string>
+    <string-array name="dfmt_opts">
+        <item>Pazartesi, 5 Mayıs</item>
+        <item>5 Mayıs 2025</item>
+        <item>05.05.2025</item>
+        <item>Pzt 5 May</item>
+    </string-array>
+    <string name="set_lsize">Saat boyutu</string>
+    <string name="set_cfont">Yazı tipi</string>
+    <string-array name="cfont_opts">
+        <item>İnce</item>
+        <item>Hafif</item>
+        <item>Normal</item>
+        <item>Dar</item>
+        <item>Orta</item>
+    </string-array>
+    <string name="set_ccolor">Saat rengi</string>
+    <string-array name="ccolor_opts">
+        <item>Sistem rengi</item>
+        <item>Tema rengi</item>
+        <item>Beyaz</item>
+    </string-array>
+    <string name="set_lpos">Dikey konum</string>
+    <string-array name="lpos_opts">
+        <item>Üst</item>
+        <item>Orta</item>
+        <item>Alt</item>
+    </string-array>
+    <string name="set_cshadow">Gölge</string>
+    <string name="set_lmusic">Müzik tuşları</string>
+
+    <!-- Ana Menü Ayarları -->
+    <string name="set_panel">Sol panel</string>
+    <string name="set_pside">Panel yeri</string>
+    <string-array name="pside_opts">
+        <item>Sol</item>
+        <item>Sağ</item>
+    </string-array>
+    <string name="set_panel_w">Panel genişliği</string>
+    <string name="set_wnav">Navigasyon kartı</string>
+    <string name="set_wmusic">Müzik kartı</string>
+    <string name="set_wquick">Hızlı uygulama satırı</string>
+    <string name="set_add_widget">➕  Widget ekle</string>
+    <string name="set_clear_widgets">Tüm widget'ları kaldır</string>
+
+    <!-- Alt Çubuk Ayarları -->
+    <string name="set_bar">Alt çubuk açık</string>
+    <string name="set_bar_h">Yükseklik</string>
+    <string name="set_bar_icon">İkon boyutu</string>
+    <string name="set_bar_align">Hizalama</string>
+    <string-array name="bar_align_opts">
+        <item>Orta</item>
+        <item>Sol</item>
+    </string-array>
+    <string name="set_tlock">Kilit düğmesi</string>
+    <string name="set_tvol">Ses düğmesi</string>
+    <string name="set_reset_pins">Sabitlenen uygulamaları sıfırla</string>
+
+    <!-- Uygulama Listesi Ayarları -->
+    <string name="set_cols">Sütun sayısı</string>
+    <string name="set_rows">Satır sayısı</string>
+    <string name="set_isize">İkon boyutu</string>
+    <string name="set_lsz">İsim yazı boyutu</string>
+    <string name="set_labels">İsimleri göster</string>
+    <string name="set_sort">Sıralama</string>
+    <string-array name="sort_opts">
+        <item>Özel sıra (uzun bas &gt; Yerini değiştir)</item>
+        <item>A-Z</item>
+    </string-array>
+    <string name="set_reset_order">Özel sırayı sıfırla</string>
+    <string name="toast_reset_done">Sıfırlandı</string>
+    <string name="set_hidden_apps">🙈  Gizli uygulamalar (%d)</string>
+    <string name="toast_no_hidden">Gizli uygulama yok</string>
+    <string name="dlg_unhide_title">İşareti kaldırdığın geri gelir</string>
+    <string name="btn_ok">Tamam</string>
+
+    <!-- Sistem Ayarları -->
+    <string name="set_language">Dil / Language</string>
+    <string-array name="lang_opts">
+        <item>Sistem Varsayılanı</item>
+        <item>Türkçe</item>
+        <item>English</item>
+    </string-array>
+    <string name="set_start_page">Açılış ekranı</string>
+    <string-array name="start_page_opts">
+        <item>Kilit ekranı</item>
+        <item>Ana menü</item>
+    </string-array>
+    <string name="set_keep_on">Ekranı açık tut</string>
+    <string name="set_full">Tam ekran (sistem tuşlarını gizle)</string>
+    <string name="set_orient">Ekran yönü</string>
+    <string-array name="orient_opts">
+        <item>Otomatik (yön uygulaman belirler)</item>
+        <item>Yatay</item>
+        <item>Dikey</item>
+    </string-array>
+    <string name="set_default_home">Varsayılan ana ekranı seç</string>
+    <string name="set_android_settings">Android ayarlarını aç</string>
+    <string name="set_reset_all">Tüm ayarları sıfırla</string>
+    <string name="dlg_reset_all_title">Tüm ayarlar sıfırlansın mı?</string>
+    <string name="btn_reset">Sıfırla</string>
+    <string name="about_footer">Explorer GO 1.0  •  Açık Kaynak Android Başlatıcı</string>
+</resources>
